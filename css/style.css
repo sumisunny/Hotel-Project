@@ -100,3 +100,83 @@ a{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.contact{
+    padding: 40px 20px;
+    background: #fff;
+}
+.contact h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#contactForm{
+    max-width: 600px;
+    margin: auto;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input
+.form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button.btn{
+    width: 100%;
+}
+.footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer p{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.social-icons{
+    display: flex;
+    gap: 15px;
+}
+.social-icon{
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3ms ease;
+}
+.social-icon:hover{
+    color: #ff6347;
+}
+
+@media(max-width: 768px){
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 100%;
+    }
+    .nav-links.active{
+           display: flex;
+    }
+
+    .menu-toggle{
+        display: block;
+    }
+        
+    
+}
